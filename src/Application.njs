@@ -17,7 +17,7 @@ class Application extends Nullstack {
 
   static async startSettings({ settings }) {
     settings.alchemyEndpoint = "wss://eth-ropsten.ws.alchemyapi.io/v2/Ji2svmQPCSmogF_WigI3HDpEbtevKOlk";
-    settings.receiverWallerAddress = '0x0000000000000000000000000000000000000000';
+    settings.receiverWalletAddress = '0x0000000000000000000000000000000000000000';
   }
 
   prepare({ project, page }) {

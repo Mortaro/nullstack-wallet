@@ -44,7 +44,7 @@ class Home extends Nullstack {
       nonce: '0x00', // ignored by MetaMask
       gasPrice: '0x09184e72a000', // customizable by user during MetaMask confirmation.
       gas: '0x2710', // customizable by user during MetaMask confirmation.
-      to: settings.receiverWallerAddress, // Required except during contract publications.
+      to: settings.receiverWalletAddress, // Required except during contract publications.
       from: ethereum.selectedAddress, // must match user's active address.
       value: '0x00', // Only required to send ether to the recipient from the initiating external account.
       data: '0x7f7465737432000000000000000000000000000000000000000000000000000000600057', // Optional, but used for defining smart contract creation and interaction.
