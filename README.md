@@ -32,3 +32,13 @@ very inside clarify bar wrong acid fiber labor identify evoke second coil
 - Public wallet key
 - Private wallet key
 - Metadata token uri
+
+## Links
+
+- https://faucet.ropsten.be/
+
+## Questions
+
+- Will we use a callback transaction?
+- Is there an alternative without a second cost for the callback transaction?
+- One contract per asset or one contract that takes an asset as params?
